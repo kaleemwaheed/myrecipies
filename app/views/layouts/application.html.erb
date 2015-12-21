@@ -7,35 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header class="navbar navbar-default">
-  	<div class="container-fluid">
-  		<%= link_to "My Recipies", "", class:"btn btn-default btn-warning", id:"logo"%>
-  		<div class="nav_item" >
-  		<%= link_to "Link_1", "", class:"btn btn-lg btn-success"%>
-  		</div>
-  		<div class="nav_item" >
-  		<%= link_to "Link_1", "", class:"btn btn-lg btn-success"%>
-  		</div>
-  		<div class="nav_item" >
-  		<%= link_to "Link_1", "", class:"btn btn-lg btn-success"%>
-  		</div>
-  	</div>
-  </header>
+  <%= render 'layouts/navigation'%>
   <div class="container">
 <%= yield %>
-
-<footer>
-        <div class="footer">
-        <p class="copyright text-muted">Copyright &copy; K&K  2015</p>
-     
-        </div>
-    </footer>
-
-
-
-
-
-
+<%= render 'layouts/footer' %>
 </div>
 </body>
 </html>
