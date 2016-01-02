@@ -30,10 +30,11 @@ gem 'mini_magick','3.8.0'
 gem 'pry', '~> 0.10.3'
 gem 'will_paginate' , '3.0.7'
 gem 'bootstrap-will_paginate' , '0.0.10'
-
+#gem 'bcrypt-ruby' 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
+gem 'bcrypt-ruby', '~> 3.1', '>= 3.1.5'
+#gem 'bcrypt-ruby' 
+#gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
