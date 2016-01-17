@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: kaleem
+  api_key: '674858182899252'
+  api_secret: 2oVhXxkHZFAShW9PVB_ixcty0oM
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: kaleem
+  api_key: '674858182899252'
+  api_secret: 2oVhXxkHZFAShW9PVB_ixcty0oM
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: kaleem
+  api_key: '674858182899252'
+  api_secret: 2oVhXxkHZFAShW9PVB_ixcty0oM
+  enhance_image_tag: true
+  static_image_support: false
