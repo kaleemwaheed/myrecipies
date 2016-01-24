@@ -7,5 +7,3 @@ Rails.application.initialize!
 require 'carrierwave/orm/activerecord'
 
 
-config.gem 'cloudinary'
-
